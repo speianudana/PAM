@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class NetworkModule {
 
     companion object {
-        const val BASE_URL = "https://cb2dcdc1.ngrok.io"
+        const val BASE_URL = "https://91f71c69.ngrok.io"
     }
 
     @Provides
