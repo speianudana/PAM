@@ -57,3 +57,21 @@ LoginBuilder - is a Dagger class builder to combine LoginModel, LoginPresenter a
 
 Dagger automatically generates the code to inject LoginPresenter and LoginView into LoginActivity, this is done by using annotation @Inject. All other views have the same structure as Login screen. 
 
+
+## Laboratory 5
+1) These are the modules covered in unit tests:
+
+EventScreenPresenterTest - verifies business logic for getting sport events;
+
+ItemInfoPresenterTest - verifies that item id is used for getting event data;
+
+SettingsPresenterTest - checks the user settings logic.
+
+2) UI instrumental tests:
+
+SplashScreenTest - verifies that splash icon appears;
+
+LoginTest - performs a login into the app and tests that navigation bar is visible.
+
+For the last tests backend should be up and running because requests are made on real backend.
+
