@@ -32,7 +32,7 @@ class EventsScreenPresenterTest {
     }
 
     @Test
-    fun testPresenter_showUserSettings() {
+    fun testPresenter_shouldLoadEvent() {
         val event = EventItem("id", "test", "test", "test", "test", "test")
         Mockito.`when`(eventModel.getAuthToken()).thenReturn("test")
         Mockito.`when`(serverRequestService.getEvents(anyValue())).thenReturn(Observable.just(listOf(event)))
