@@ -59,7 +59,7 @@ Dagger automatically generates the code to inject LoginPresenter and LoginView i
 
 
 ## Laboratory 5
-1) These are the modules covered in unit tests:
+#### 1) These are the modules covered in unit tests:
 
 EventScreenPresenterTest - verifies business logic for getting sport events;
 
@@ -67,7 +67,7 @@ ItemInfoPresenterTest - verifies that item id is used for getting event data;
 
 SettingsPresenterTest - checks the user settings logic.
 
-2) UI instrumental tests:
+#### 2) UI instrumental tests:
 
 SplashScreenTest - verifies that splash icon appears;
 
